@@ -1,0 +1,25 @@
+/* Dashboard Component Styles */
+
+.dashboard-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.dashboard-logout-button {
+  transition: all 0.2s ease;
+}
+
+.dashboard-logout-button:hover {
+  background-color: #c82333 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(220, 53, 69, 0.3);
+}
+
+.dashboard-logout-button:active {
+  transform: translateY(0);
+}
+
